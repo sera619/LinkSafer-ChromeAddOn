@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+    </style>
+    <title>LinkSafer</title>
+    <link rel="javascript" href="snake.js"/>
+    <link rel="stylesheet" href="snake.css" />
+    <style>
+        #snake-background {
+          height: 300;
+          width: 300;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          background-color: black;
+        }
+    
+        #game-board {
+          background-color: #CCC;
+          width: 100vmin;
+          height: 100vmin;
+          display: grids;
+          align-items: center;
+          grid-template-rows: repeat(21, 1fr);
+          grid-template-columns: repeat(21, 1fr);
+        }
+    
+        .snake {
+          background-color: hsl(200, 100%, 50%);
+          border: .25vmin solid black;
+        }
+    
+        .food {
+          background-color: hsl(50, 100%, 50%);
+          border: .25vmin solid black;
+        }
+      </style>
+  </head>
+
+  <body>
+    <h1>LinkSafer</h1>
+    <h2 id="h2">Snake Remake</h2>
+
+    <canvas id="snake-background" width="100%" height="100%"></canvas>
+    <div class="button-container">
+        <button scale="0.5" class="box" id="start-button" onclick="startGame()">START</button>
+        <button scale="0.5" class="box" id="end-button" onclick="endGame()">ENDE</button>
+        <button scale="0.5" class="box" id="back-button" onclick="goBack()">BACK</button>
+    </div>
+    <script src="snake.js"></script>
+  </body>
+  <footer>
+    <br />
+    <br />
+    <div class="wrapper">
+      <div class="icon facebook">
+        <div class="tooltip">Facebook</div>
+        <span
+          ><a href="https://www.facebook.com/nick.sera.9028" target="_blank"
+            ><i class="fa fa-facebook-f"></i></a
+        ></span>
+      </div>
+      <div class="icon github">
+        <div class="tooltip">Github</div>
+        <span
+          ><a href="https://www.github.com/sera619" target="_blank"
+            ><i class="fa fa-github"></i></a
+        ></span>
+      </div>
+      <div class="icon youtube">
+        <div class="tooltip">Youtube</div>
+        <span
+          ><a
+            href="https://www.youtube.com/channel/UCJLXwZV5Kk4XRF6TSY_iPgQ"
+            target="_blank"
+            ><i class="fa fa-youtube"></i></a
+        ></span>
+      </div>
+    </div>
+    <p>LinkSafer 1.9.6 © 2021 by S3R43o3</p>
+  </footer>
+</html>

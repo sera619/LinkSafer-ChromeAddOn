@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "1.9.6",
+  "version_name": "v1.9.6 Beta",
+  "name": "LinkSafer",
+  "description": "Safe open Tabs quickly or save your own notice in a List.",
+  "icons": {
+    "128": "./favicon-128.png",
+    "32": "./favicon-32x32.png",
+    "16": "./favicon-16x16.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "linksafer_icon.png"
+  },
+  "offline_enabled": true,
+  "permissions": [
+    "tabs",
+    "downloads",
+    "activeTab",
+    "nativeMessaging",
+    "notifications"
+  ]
+}
