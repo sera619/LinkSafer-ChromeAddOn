@@ -182,5 +182,6 @@ const snakeButton = document.getElementById("snake-button");
 
 
 snakeButton.addEventListener("click", function () {
+    // sende background-nachricht zum empfänger > 
     chrome.runtime.sendMessage({message: 'buttonClicked'})
 }); 
