@@ -169,7 +169,7 @@ Hier wählt ihr den entpackten Ordner "LinkSafer-ChromeAddOn-master".
 
 
 :question: **Bitte ![kontaktiere](seraphinus619@gmail.com)  mich jederzeit, solltest du irgendwelche Probleme haben!** :question:
-Viel Spaß.
+
 
 
 
