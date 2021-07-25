@@ -7,9 +7,9 @@ Simple Chrome Browser-AddOn to:
 - save the currently active tab
 - save your own URL/notice or other texts of your choice
 
-:warning:
+**:warning:**
 
-* this add on is <ins>NOT</ins> compatible with:
+this add on is **<ins>NOT</ins>** compatible with:
 
 - FireFox
 - Microsoft Internet Explorer
@@ -23,9 +23,9 @@ Einfaches Add on für den Chrome Browser um:
 - den derzeitig aktiven Tab zu speichern 
 - eigene Tabs/Notizen o.ä. zu speichern.
 
-:warning:
+**:warning:**
 
-* Dieses Add-On ist nich kompatibel mit:
+Dieses Add-On ist **<ins>nich</ins>** kompatibel mit:
 
 - FireFox
 - Microsoft Internet Explorer
