@@ -5,19 +5,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <meta charset="utf-8" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LinkSafer</title>
-    <link rel="javascript" href="snake.js"/>
-    <link rel="stylesheet" href="snake.css" />
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
         #snake-background {
           height: 300;
           width: 300;
-          display: flex;
-          justify-content: center;
+          justify-content: space-evenly;
           align-items: center;
           margin: 0;
           background-color: black;
@@ -28,7 +25,7 @@
           width: 100vmin;
           height: 100vmin;
           display: grids;
-          align-items: center;
+          justify-self: center;
           grid-template-rows: repeat(21, 1fr);
           grid-template-columns: repeat(21, 1fr);
         }
@@ -42,23 +39,52 @@
           background-color: hsl(50, 100%, 50%);
           border: .25vmin solid black;
         }
+        body {
+        min-height: 100%;
+        align-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        background: linear-gradient(
+            170deg,
+            rgba(49, 57, 73, 0.8) 20%,
+            rgba(49, 57, 73, 0.5) 20%,
+            rgba(49, 57, 73, 0.5) 35%,
+            rgba(41, 48, 61, 0.6) 35%,
+            rgba(41, 48, 61, 0.8) 45%,
+            rgba(31, 36, 46, 0.5) 45%,
+            rgba(31, 36, 46, 0.8) 75%,
+            rgba(49, 57, 73, 0.5) 75%
+          ),
+          linear-gradient(
+              45deg,
+              rgba(20, 24, 31, 0.8) 0%,
+              rgba(41, 48, 61, 0.8) 50%,
+              rgba(82, 95, 122, 0.8) 50%,
+              rgba(133, 146, 173, 0.8) 100%
+      )
+      #313949;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
       </style>
+      <script src="game.js" defer type="module"></script>
   </head>
 
   <body>
     <h1>LinkSafer</h1>
     <h2 id="h2">Snake Remake</h2>
-    <div class="center" id="spielabschnitt">
-      <canvas id="snake-background" width="100%" height="100%"></canvas>
-    </div>
-    <div class="button-container">
-        <button scale="0.5" class="box" id="start-button" onclick="startGame()">START</button>
-        <button scale="0.5" class="box" id="end-button" onclick="endGame()">ENDE</button>
-        <button scale="0.5" class="box" id="back-button" onclick="goBack()">BACK</button>
-    </div>
-    <script src="snake.js"></script>
+    <div id="game-board"></div>
   </body>
   <footer>
+    <div class="button-container">
+      <button scale="0.5" class="box" id="start-button" onclick="startGame()">START</button>
+      <button scale="0.5" class="box" id="end-button" onclick="endGame()">ENDE</button>
+      <button scale="0.5" class="box" id="back-button" onclick="goBack()">BACK</button>
+  </div>
     <br />
     <br />
     <div class="wrapper">

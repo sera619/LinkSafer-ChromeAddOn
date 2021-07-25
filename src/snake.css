@@ -2,6 +2,9 @@ html {
   height: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  align-content: center;
+  padding: 0;
+  margin: 0;
 }
 h1 {
   color: #ffffff;
@@ -12,9 +15,7 @@ h1 {
   font-family: "Mr Dafoe", cursive;
   font-size: 80px;
 }
-#spielabschnitt{
-  align-items: center;
-}
+
 body {
   min-height: 100%;
   position: relative;
@@ -22,7 +23,6 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  align-self: center;
   width: 100%;
   background: linear-gradient(
       170deg,

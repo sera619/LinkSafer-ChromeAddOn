@@ -4,7 +4,7 @@
   "version_name": "v2.0.0 Beta",
   "name": "LinkSafer",
   "background":{
-    "service_worker": "background.js", "type": "module"  
+    "service_worker": "background.js"  
   },
   "description": "Save open Tabs quickly or save your own notice in a List.",
   "icons": {
