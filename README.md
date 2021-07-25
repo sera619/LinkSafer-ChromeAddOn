@@ -1,4 +1,4 @@
-<p style="text-align: center;"> # LinkSafer </p>
+# <p style="text-align: center;">LinkSafer</p>
 
 :gb: 
 
