@@ -1,4 +1,5 @@
-# <p style="text-align: center;"> LinkSafer </p>#<p style="text-align: center;">ChromeAddOn</p>
+# <p style="text-align: center;"> LinkSafer </p>
+# <p style="text-align: center;">ChromeAddOn</p>
 Simple AddOn to Save the currentyl active tab and insert text.
 ***
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
@@ -13,7 +14,7 @@ Simple AddOn to Save the currentyl active tab and insert text.
 - styling fixes.                        :heavy_check_mark:
 - multi lang support                    
 - puplish on google webstore            
-- add save list to fav                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will appear with six space characters in front of it
+- add save list to fav                  
 - export list to .txt                   :heavy_check_mark:
 
 ***
