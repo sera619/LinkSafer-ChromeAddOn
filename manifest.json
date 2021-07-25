@@ -3,7 +3,7 @@
   "version": "1.9.6",
   "version_name": "v1.9.6 Beta",
   "name": "LinkSafer",
-  "description": "Safe open Tabs quickly or save your own notice in a List.",
+  "description": "Save open Tabs quickly or save your own notice in a List.",
   "icons": {
     "128": "./img/favicon-128.png",
     "32": "./img/favicon-32x32.png",
