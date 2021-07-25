@@ -1,8 +1,4 @@
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
-    if(request.message == 'buttonClicked'){
-        chrome.tabs.create({
-            active: true,
-            url: './addons/Snake/snake.html'
-        },null);
-    };
-});
+import * as THREE from 'three';
+
+// spielvarbiablen: Spielfeld
+const scene = new THREE.Scene();
