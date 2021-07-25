@@ -63,8 +63,8 @@ function noInputErr() {
     } else {
         if (Notification.permission === "granted") {
             // notification here:
-            var noteUser = new Notification("ERROR!", {
-                body: "Your Inputfield is empty, cant save nothing!",
+            var noteUser = new Notification("ERROR 3o3", {
+                body: "Your Inputfield is empty, cant save empty value!",
                 icon: "favicon-128.png",
             });
         } else {

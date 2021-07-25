@@ -3,5 +3,23 @@
     "jquery": "^3.6.0",
     "three": "^0.130.1",
     "three.js": "^0.77.1"
-  }
+  },
+  "name": "linksafer-chromeaddon-1.9.6-beta",
+  "description": ":gb::gb::gb::gb:",
+  "version": "2.0.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sera619/LinkSafer-ChromeAddOn-New.git"
+  },
+  "author": "S3R43o3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sera619/LinkSafer-ChromeAddOn-New/issues"
+  },
+  "homepage": "https://github.com/sera619/LinkSafer-ChromeAddOn-New#readme"
 }
