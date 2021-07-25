@@ -82,7 +82,7 @@ Seraphinus619@gmail.com
 
 :gb::gb::gb::gb:
 
-:warning: This add-on is currently in beta phase. :warnig:
+:warning: This add-on is currently in beta phase. :waring:
 
 :arrow_down: To use and test them you can follow the tutorial right below: :arrow_down:
 
