@@ -7,6 +7,8 @@ Simple Chrome Browser-AddOn to:
 - save the currently active tab
 - save your own URL/notice or other texts of your choice
 
+:memo:**If you want to contribute on any aspect of the software your always welcome! Just fork this repository and create a pull request with a short-detailed information about your changes.**
+
 **:warning:**this add on is **<ins>NOT</ins>** compatible with:**:warning:**
 
 - FireFox
@@ -21,6 +23,8 @@ Einfaches Add on für den Chrome Browser um:
 - den derzeitig aktiven Tab zu speichern 
 - eigene Tabs/Notizen o.ä. zu speichern.
 
+:memo:**Wenn du an der Software mitwirken möchtest, egal ob Dokumentation, Entwicklung, Design. Forke einfach dieses Repository und erstelle einen Pull-Request mit einer kurz-detailierten Information deiner Änderungen.**
+
 **:warning:**Dieses Add-On ist **<ins>NICHT</ins>** kompatibel mit:**:warning:**
 
 - FireFox
@@ -32,7 +36,7 @@ Einfaches Add on für den Chrome Browser um:
 
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
 
-## :triangular_flag_on_post: TODO: :triangular_flag_on_post:
+## :triangular_flag_on_post: :memo: TODO: :memo: :triangular_flag_on_post:
 
 :gb::gb::gb::gb:
 
