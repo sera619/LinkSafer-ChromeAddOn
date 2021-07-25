@@ -68,7 +68,7 @@ Einfaches Add on für den Chrome Browser um:
 - konfigurieren der Optionen            :x:
 - Anzeige Fehler behoben                :heavy_check_mark:
 - Mehrsprachig                          :x:
-- im Google-Sore veröffentlicht         :x:
+- im Google-Store veröffentlicht         :x:
 - speicher Liste als Favoriten          :x:
 - Liste als Text-Datei exportieren      :heavy_check_mark:
 - Snake-Spiel eingefügt                 :x:
