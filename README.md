@@ -110,7 +110,7 @@ Verzeichnis Downloaden und entpacken:
 
 :gb::gb::gb::gb:
 
-In order open your chrome browser and click the add-on icon in the right-hand side corner:
+In order open your chrome browser and click the add-on icon on the right-hand side corner:
 
 :de::de::de::de:
 
