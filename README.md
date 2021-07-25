@@ -13,7 +13,7 @@ Simple AddOn to Save the currentyl active tab and insert text.
 - styling fixes.                        :heavy_check_mark:
 - multi lang support                    
 - puplish on google webstore            
-- add save list to fav
+- add save list to fav                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will appear with six space characters in front of it
 - export list to .txt                   :heavy_check_mark:
 
 ***
