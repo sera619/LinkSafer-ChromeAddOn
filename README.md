@@ -1,31 +1,27 @@
 # <p style="text-align: center;">LinkSafer</p>
 
-:gb: 
+:gb::gb::gb::gb:
 
 Simple Chrome Browser-AddOn to: 
 
 - save the currently active tab
 - save your own URL/notice or other texts of your choice
 
-**:warning:**
-
-this add on is **<ins>NOT</ins>** compatible with:
+**:warning:**this add on is **<ins>NOT</ins>** compatible with:**:warning:**
 
 - FireFox
 - Microsoft Internet Explorer
 - Opera
 - all other Browser that you may know ... 
 
-:de: 
+:de::de::de::de: 
 
 Einfaches Add on für den Chrome Browser um:
 
 - den derzeitig aktiven Tab zu speichern 
 - eigene Tabs/Notizen o.ä. zu speichern.
 
-**:warning:**
-
-Dieses Add-On ist **<ins>NICHT</ins>** kompatibel mit:
+**:warning:**Dieses Add-On ist **<ins>NICHT</ins>** kompatibel mit:**:warning:**
 
 - FireFox
 - Microsoft Internet Explorer
@@ -38,7 +34,7 @@ Dieses Add-On ist **<ins>NICHT</ins>** kompatibel mit:
 
 ## :triangular_flag_on_post: TODO: :triangular_flag_on_post:
 
-:gb:
+:gb::gb::gb::gb:
 
 - interaction w/ website                :heavy_check_mark:
 - add Tab save button                   :heavy_check_mark:
@@ -56,7 +52,7 @@ Dieses Add-On ist **<ins>NICHT</ins>** kompatibel mit:
 - implement Snake Game                  :x:
 - setup a YT converter                  :x:
 
-:de:
+:de::de::de::de:
 
 - interaktion mit Browser               :heavy_check_mark:
 - füge Speicher-Tab Button ein          :heavy_check_mark:
@@ -80,13 +76,13 @@ Seraphinus619@gmail.com
 
 ## :bangbang: Installation :bangbang:
 
-:gb:
+:gb::gb::gb::gb:
 
 :warning: This add-on is currently in beta phase. :warnig:
 
 :arrow_down: To use and test them you can follow the tutorial right below: :arrow_down:
 
-:de:
+:de::de::de::de:
 
 :warning: Das Add-On befindet sich zurzeit in der Beta-Phase. :warning:
 
@@ -94,11 +90,11 @@ Seraphinus619@gmail.com
 
 ***
 
-:gb:
+:gb::gb::gb::gb:
 
 Download the directory and extract it:
 
-:de:
+:de::de::de::de:
 
 Verzeichnis Downloaden und entpacken:
 
@@ -108,11 +104,11 @@ Verzeichnis Downloaden und entpacken:
 
 ***
 
-:gb:
+:gb::gb::gb::gb:
 
 In order open your chrome browser and click the add-on icon in the right-hand side corner:
 
-:de:
+:de::de::de::de:
 
 Im Anschluss Chrome Browser öffnen und oben rechts in das AddOn-Widget klicken.
 
@@ -120,11 +116,11 @@ Im Anschluss Chrome Browser öffnen und oben rechts in das AddOn-Widget klicken.
 
 ***
 
-:gb:
+:gb::gb::gb::gb:
 
 Activate the developer mode:
 
-:de:
+:de::de::de::de:
 
 In den Erweiterungen nun den Developer-Modus aktivieren:
 
@@ -132,11 +128,11 @@ In den Erweiterungen nun den Developer-Modus aktivieren:
 
 ***
 
-:gb:
+:gb::gb::gb::gb:
 
 Click the "load unpacked extension"-Button:
 
-:de:
+:de::de::de::de:
 
 Nun auf den Button "Entpackte Erweiterung laden":
 
@@ -144,11 +140,11 @@ Nun auf den Button "Entpackte Erweiterung laden":
 
 ***
 
-:gb:
+:gb::gb::gb::gb:
 
 choose the extracted directory:
 
-:de:
+:de::de::de::de:
 
 Hier wählt ihr den entpackten Ordner "LinkSafer-ChromeAddOn-master". 
 
@@ -156,13 +152,13 @@ Hier wählt ihr den entpackten Ordner "LinkSafer-ChromeAddOn-master".
 
 ***
 
-:gb:
+:gb::gb::gb::gb:
 
 :+1: :ok_hand: Well done your´e ready to use! :ok_hand: :+1:
 :pray: Thank you for using my Software. :pray:
 :question: If you face any issues please feel always free to ![contact](seraphinus619@gmail.com) me! :question:
 
-:de:
+:de::de::de::de:
 
 :+1: :ok_hand: Okay, du kannst das Add-On jetzt benutzen! :ok_hand: :+1:
 :pray: Danke das du meine Software nutzt! :pray:
