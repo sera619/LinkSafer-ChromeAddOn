@@ -1,8 +1,18 @@
 # <p style="text-align: center;"> LinkSafer </p>
 
-:gb: Simple Chrome Browser-AddOn to Save the currently active tab and insert text.
+:gb: 
 
-:de: Einfaches Add on für den Chrome Browser um den derzeitig aktiven Tab zu speichern oder eigene Tabs/Notizen o.ä. zu speichern.
+Simple Chrome Browser-AddOn to: 
+
+- save the currently active tab
+- save your own URL/notice or other texts of your choice
+
+:de: 
+
+Einfaches Add on für den Chrome Browser um:
+
+- den derzeitig aktiven Tab zu speichern 
+- eigene Tabs/Notizen o.ä. zu speichern.
 ***
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
 
@@ -23,7 +33,11 @@
 **Für Fragen oder Anregungen:**
 - Kontakt: Seraphinus619@gmail.com
 
-## Installation!
+## Installation
+
+:warning:
+:gb:
+This Addon is only compatible with CHROME BROWSER! Firefox, Microsoft Internet Explorer, 
 Das Add On befindet sich momentan in der Betaphase. Zum vorab testen kannst du dir hier, mit bebildeter Anleitung,
 das AddOn installieren. 
 
