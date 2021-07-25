@@ -23,6 +23,7 @@
     "downloads",
     "activeTab",
     "nativeMessaging",
-    "notifications"
+    "notifications",
+    "windows"
   ]
 }
