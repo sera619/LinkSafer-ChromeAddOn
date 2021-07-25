@@ -1,5 +1,7 @@
-# <p style="text-align: center;"> LinkSafer </p>
-# <p style="text-align: center;">ChromeAddOn</p>
+# <p style="text-align: center;"> LinkSafer 
+ChromeAddOn
+</p>
+
 Simple AddOn to Save the currentyl active tab and insert text.
 ***
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
