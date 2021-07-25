@@ -25,7 +25,7 @@ Einfaches Add on für den Chrome Browser um:
 
 **:warning:**
 
-Dieses Add-On ist **<ins>nich</ins>** kompatibel mit:
+Dieses Add-On ist **<ins>NICHT</ins>** kompatibel mit:
 
 - FireFox
 - Microsoft Internet Explorer
