@@ -5,9 +5,9 @@
   "name": "LinkSafer",
   "description": "Safe open Tabs quickly or save your own notice in a List.",
   "icons": {
-    "128": "./favicon-128.png",
-    "32": "./favicon-32x32.png",
-    "16": "./favicon-16x16.png"
+    "128": "./img/favicon-128.png",
+    "32": "./img/favicon-32x32.png",
+    "16": "./img/favicon-16x16.png"
   },
   "options_ui": {
     "page": "options.html",
@@ -15,7 +15,7 @@
   },
   "browser_action": {
     "default_popup": "index.html",
-    "default_icon": "linksafer_icon.png"
+    "default_icon": "./img/linksafer_icon.png"
   },
   "offline_enabled": true,
   "permissions": [
