@@ -12,7 +12,9 @@ h1 {
   font-family: "Mr Dafoe", cursive;
   font-size: 80px;
 }
-
+#spielabschnitt{
+  align-items: center;
+}
 body {
   min-height: 100%;
   position: relative;
