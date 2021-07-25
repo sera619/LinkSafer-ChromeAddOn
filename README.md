@@ -155,13 +155,19 @@ Hier wählt ihr den entpackten Ordner "LinkSafer-ChromeAddOn-master".
 :gb::gb::gb::gb:
 
 :+1: :ok_hand: **Well done your´e ready to use!** :ok_hand: :+1:
+
 :pray: **Thank you for using my Software.** :pray:
+
+
 :question: **If you face any issues please feel always free to ![contact](seraphinus619@gmail.com) me!** :question:
 
 :de::de::de::de:
 
-:+1: :ok_hand: Okay, du kannst das Add-On jetzt benutzen! :ok_hand: :+1:
-:pray: Danke das du meine Software nutzt! :pray:
+:+1: :ok_hand: **Okay, du kannst das Add-On jetzt benutzen!** :ok_hand: :+1:
+
+:pray: **Danke das du meine Software nutzt!** :pray:
+
+
 :question: **Bitte ![kontaktiere](seraphinus619@gmail.com)  mich jederzeit, solltest du irgendwelche Probleme haben.** :question:
 Viel Spaß.
 
