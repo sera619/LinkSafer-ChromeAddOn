@@ -2,27 +2,28 @@
 Simple AddOn to Save the currentyl active tab and insert text.
 
 
-![](https://github.com/sera619/LinkSafer-ChromeAddOn/blob/main/LinkSafer_2.png)
+![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
 
 
 # TODO:
-- interaction w/ website (check)
-- add Tab save button (check)
-- Offline Template initieren. (check)
-- Kontakt Button (check v1.5.2)
-- Help/instruction button 
-- styling fixes.  (check)
-- multi lang support
-- puplish on google webstore
+- interaction w/ website                :heavy_check_mark:
+- add Tab save button                   :heavy_check_mark:
+- Offline Template initieren.           :heavy_check_mark:
+- Kontakt Button                        :heavy_check_mark:
+- Help/instruction button               
+- styling fixes.                        :heavy_check_mark:
+- multi lang support                    
+- puplish on google webstore            
 - add save list to fav
-- export list to .txt (check v1.4.2)
+- export list to .txt                   :heavy_check_mark:
 
 **Für Fragen oder Anregungen:**
 - Kontakt: Seraphinus619@gmail.com
 
 # Installation!
-Das Add On befindet sich momentan in der Betaphase. Zum vorab testen könnt ihr euch hier manuell, mit bebildeter Anleitung,
-das AddOn installieren. Folgt einfach den Bildern.
+Das Add On befindet sich momentan in der Betaphase. Zum vorab testen kannst du dir hier, mit bebildeter Anleitung,
+das AddOn installieren. 
+:arrow_down: Folge hierzu einfach den folgenden Bildern. :arrow_down:
 
 
 Verzeichnis Downloaden und entpacken.
