@@ -1,46 +1,60 @@
+import { Material } from './Material.js';
+import { Color } from '../math/Color.js';
+
 /**
- * @author alteredq / http://alteredqualia.com/
- *
  * parameters = {
  *  color: <hex>,
- *  opacity: <float>,
  *  map: new THREE.Texture( <Image> ),
- *
- *	uvOffset: new THREE.Vector2(),
- *	uvScale: new THREE.Vector2()
+ *  alphaMap: new THREE.Texture( <Image> ),
+ *  rotation: <float>,
+ *  sizeAttenuation: <bool>
  * }
  */
 
-THREE.SpriteMaterial = function ( parameters ) {
+class SpriteMaterial extends Material {
 
-	THREE.Material.call( this );
+	constructor( parameters ) {
 
-	this.type = 'SpriteMaterial';
+		super();
 
-	this.color = new THREE.Color( 0xffffff );
-	this.map = null;
+		this.type = 'SpriteMaterial';
 
-	this.rotation = 0;
+		this.color = new Color( 0xffffff );
 
-	this.fog = false;
-	this.lights = false;
+		this.map = null;
 
-	this.setValues( parameters );
+		this.alphaMap = null;
 
-};
+		this.rotation = 0;
 
-THREE.SpriteMaterial.prototype = Object.create( THREE.Material.prototype );
-THREE.SpriteMaterial.prototype.constructor = THREE.SpriteMaterial;
+		this.sizeAttenuation = true;
 
-THREE.SpriteMaterial.prototype.copy = function ( source ) {
+		this.transparent = true;
 
-	THREE.Material.prototype.copy.call( this, source );
+		this.setValues( parameters );
 
-	this.color.copy( source.color );
-	this.map = source.map;
+	}
 
-	this.rotation = source.rotation;
+	copy( source ) {
 
-	return this;
+		super.copy( source );
 
-};
+		this.color.copy( source.color );
+
+		this.map = source.map;
+
+		this.alphaMap = source.alphaMap;
+
+		this.rotation = source.rotation;
+
+		this.sizeAttenuation = source.sizeAttenuation;
+
+		return this;
+
+	}
+
+}
+
+SpriteMaterial.prototype.isSpriteMaterial = true;
+
+export { SpriteMaterial };

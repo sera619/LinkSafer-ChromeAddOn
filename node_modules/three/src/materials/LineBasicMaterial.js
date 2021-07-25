@@ -1,7 +1,7 @@
+import { Material } from './Material.js';
+import { Color } from '../math/Color.js';
+
 /**
- * @author mrdoob / http://mrdoob.com/
- * @author alteredq / http://alteredqualia.com/
- *
  * parameters = {
  *  color: <hex>,
  *  opacity: <float>,
@@ -12,37 +12,45 @@
  * }
  */
 
-THREE.LineBasicMaterial = function ( parameters ) {
+class LineBasicMaterial extends Material {
 
-	THREE.Material.call( this );
+	constructor( parameters ) {
 
-	this.type = 'LineBasicMaterial';
+		super();
 
-	this.color = new THREE.Color( 0xffffff );
+		this.type = 'LineBasicMaterial';
 
-	this.linewidth = 1;
-	this.linecap = 'round';
-	this.linejoin = 'round';
+		this.color = new Color( 0xffffff );
 
-	this.lights = false;
+		this.linewidth = 1;
+		this.linecap = 'round';
+		this.linejoin = 'round';
 
-	this.setValues( parameters );
+		this.morphTargets = false;
 
-};
+		this.setValues( parameters );
 
-THREE.LineBasicMaterial.prototype = Object.create( THREE.Material.prototype );
-THREE.LineBasicMaterial.prototype.constructor = THREE.LineBasicMaterial;
+	}
 
-THREE.LineBasicMaterial.prototype.copy = function ( source ) {
 
-	THREE.Material.prototype.copy.call( this, source );
+	copy( source ) {
 
-	this.color.copy( source.color );
+		super.copy( source );
 
-	this.linewidth = source.linewidth;
-	this.linecap = source.linecap;
-	this.linejoin = source.linejoin;
+		this.color.copy( source.color );
 
-	return this;
+		this.linewidth = source.linewidth;
+		this.linecap = source.linecap;
+		this.linejoin = source.linejoin;
 
-};
+		this.morphTargets = source.morphTargets;
+
+		return this;
+
+	}
+
+}
+
+LineBasicMaterial.prototype.isLineBasicMaterial = true;
+
+export { LineBasicMaterial };
