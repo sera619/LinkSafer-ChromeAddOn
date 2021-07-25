@@ -3,7 +3,7 @@ Simple AddOn to Save the currentyl active tab and insert text.
 ***
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
 
-## TODO:
+## :triangular_flag_on_post: TODO: :triangular_flag_on_post:
 
 - interaction w/ website                :heavy_check_mark:
 - add Tab save button                   :heavy_check_mark:
