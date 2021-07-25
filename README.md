@@ -5,7 +5,8 @@ Simple AddOn to Save the currentyl active tab and insert text.
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn-New/blob/main/img/LinkSafer_2.png)
 
 
-# TODO:
+## :triangular_flag_on_post: TODO :triangular_flag_on_post:
+
 - interaction w/ website                :heavy_check_mark:
 - add Tab save button                   :heavy_check_mark:
 - Offline Template initieren.           :heavy_check_mark:
@@ -20,7 +21,7 @@ Simple AddOn to Save the currentyl active tab and insert text.
 **Für Fragen oder Anregungen:**
 - Kontakt: Seraphinus619@gmail.com
 
-# Installation!
+## Installation!
 Das Add On befindet sich momentan in der Betaphase. Zum vorab testen kannst du dir hier, mit bebildeter Anleitung,
 das AddOn installieren. 
 :arrow_down: Folge hierzu einfach den folgenden Bildern. :arrow_down:
