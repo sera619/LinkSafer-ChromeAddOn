@@ -58,7 +58,7 @@ Einfaches Add on für den Chrome Browser um:
 
 :de:
 
-- interaktion mit broweser              :heavy_check_mark:
+- interaktion mit Browser               :heavy_check_mark:
 - füge Speicher-Tab Button ein          :heavy_check_mark:
 - Offline Template initieren            :heavy_check_mark:
 - Kontakt-Button einfügen               :heavy_check_mark:
