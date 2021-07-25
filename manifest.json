@@ -3,6 +3,9 @@
   "version": "1.9.6",
   "version_name": "v1.9.6 Beta",
   "name": "LinkSafer",
+  "background":{
+    "service_worker": "background.js"  
+  },
   "description": "Save open Tabs quickly or save your own notice in a List.",
   "icons": {
     "128": "./img/favicon-128.png",
