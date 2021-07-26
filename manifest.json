@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "version": "2.0.0",
-  "version_name": "v2.0.0 Beta",
+  "version": "2.1.4",
+  "version_name": "v2.1.4 Beta",
   "name": "LinkSafer",
   "background":{
     "service_worker": "background.js"  
