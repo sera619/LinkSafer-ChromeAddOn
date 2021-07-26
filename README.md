@@ -67,7 +67,7 @@ Einfaches Add on für den Chrome Browser um:
 |- setup a YT converter       |:x:               |
 
 :de::de::de::de:
-|Funktion:                               | Verfügbar:       |
+|Aufgabe:                                | Erledigt:        |
 |----------------------------------------|------------------|
 |- interaktion mit Browser               |:heavy_check_mark:|
 |- füge Speicher-Tab Button ein          |:heavy_check_mark:|
