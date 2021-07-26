@@ -91,17 +91,21 @@ Seraphinus619@gmail.com
 
 ## :bangbang: Installation :bangbang:
 
-:gb::gb::gb::gb:
+|:gb::gb::gb::gb:                      |:de::de::de::de:                      |
+|--------------------------------------|--------------------------------------|
+|:warning: This add-on is currently    | :warning: Das Add-On befindet sich   |
+|in beta phase. :waring:               | zurzeit in der Beta-Phase. :warning: |
+|:arrow_down: To use and test them     | :arrow_down: Um das Add-On testen zu |
+|follow the tutorial                   | können befolge einfach die           |  
+|right below: :arrow_down:             | bebilderte Anleitung. :arrow_down:   |  
 
-:warning: This add-on is currently in beta phase. :waring:
 
-:arrow_down: To use and test them you can follow the tutorial right below: :arrow_down:
 
-:de::de::de::de:
 
-:warning: Das Add-On befindet sich zurzeit in der Beta-Phase. :warning:
 
-:arrow_down: Um das Add-On testen zu können befolge einfach die bebilderte Anleitung. :arrow_down:
+
+
+
 
 ***
 
