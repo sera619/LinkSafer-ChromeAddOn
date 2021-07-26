@@ -93,29 +93,14 @@ Seraphinus619@gmail.com
 
 |:gb::gb::gb::gb:                      |:de::de::de::de:                      |
 |--------------------------------------|--------------------------------------|
-|:warning: This add-on is currently    | :warning: Das Add-On befindet sich   |
-|in beta phase. :waring:               | zurzeit in der Beta-Phase. :warning: |
-|:arrow_down: To use and test them     | :arrow_down: Um das Add-On testen zu |
-|follow the tutorial                   | können befolge einfach die           |  
-|right below: :arrow_down:             | bebilderte Anleitung. :arrow_down:   |  
-
-
-
-
-
-
-
-
+|:warning: This add-on is currently in beta phase. :waring: | :warning: Das Add-On befindet sichzurzeit in der Beta-Phase. :warning:|
+|:arrow_down: To use and test them follow the tutorial right below: :arrow_down: | :arrow_down: Um das Add-On testen können befolge einfach die zu bebilderte Anleitung. :arrow_down: |
 
 ***
 
-:gb::gb::gb::gb:
-
-Download the directory and extract it:
-
-:de::de::de::de:
-
-Verzeichnis Downloaden und entpacken:
+|:gb::gb::gb::gb:   |:de::de::de::de:|
+|-------------------|----------------|
+|Download the directory and extract it:| Verzeichnis Downloaden und entpacken:|
 
 ![](https://user-images.githubusercontent.com/67480273/122171649-41341480-ce80-11eb-8086-15b1a567d489.png)
 
