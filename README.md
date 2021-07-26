@@ -6,6 +6,7 @@ Simple Chrome Browser-AddOn to:
 
 - save the currently active tab
 - save your own URL/notice or other texts of your choice
+- play some Snake 
 
 :memo:**If you want to contribute on any aspect of the software your always welcome! Just fork this repository and create a pull request with a short-detailed information about your changes.**
 
@@ -22,6 +23,7 @@ Einfaches Add on für den Chrome Browser um:
 
 - den derzeitig aktiven Tab zu speichern 
 - eigene Tabs/Notizen o.ä. zu speichern.
+- spiele Snake
 
 :memo:**Wenn du an der Software mitwirken möchtest, egal ob Dokumentation, Entwicklung, Design. Forke einfach dieses Repository und erstelle einen Pull-Request mit einer kurz-detailierten Information deiner Änderungen.**
 
@@ -53,7 +55,7 @@ Einfaches Add on für den Chrome Browser um:
 - puplish on google webstore            :x:
 - add save list to fav                  :x:
 - export list to .txt                   :heavy_check_mark:
-- implement Snake Game                  :x:
+- implement Snake Game                  :heavy_check_mark:
 - setup a YT converter                  :x:
 
 :de::de::de::de:
@@ -68,10 +70,10 @@ Einfaches Add on für den Chrome Browser um:
 - konfigurieren der Optionen            :x:
 - Anzeige Fehler behoben                :heavy_check_mark:
 - Mehrsprachig                          :x:
-- im Google-Store veröffentlicht         :x:
+- im Google-Store veröffentlicht        :x:
 - speicher Liste als Favoriten          :x:
 - Liste als Text-Datei exportieren      :heavy_check_mark:
-- Snake-Spiel eingefügt                 :x:
+- Snake-Spiel eingefügt                 :heavy_check_mark:
 - YT-Converter implementiert            :x:
 
 ***
