@@ -2,7 +2,7 @@ chrome.runtime.onMessage.addListener(function(request, message, sender, senderRe
     if (request.message === 'buttonClicked'){
         chrome.tabs.create({
             active: true,
-            url: './src/snake.html',   
+            url: './src/snake.html',
         },null);
     }
     if (request.message === 'helpClicked'){
