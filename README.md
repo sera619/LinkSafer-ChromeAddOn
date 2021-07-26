@@ -96,7 +96,7 @@ Seraphinus619@gmail.com
 |:warning: This add-on is currently in beta phase. :waring: | :warning: Das Add-On befindet sichzurzeit in der Beta-Phase. :warning:|
 |:arrow_down: To use and test them follow the tutorial right below: :arrow_down: | :arrow_down: Um das Add-On testen können befolge einfach die zu bebilderte Anleitung. :arrow_down: |
 
-***
+** :one: Step 1 / Schritt 1 :one:
 
 |:gb::gb::gb::gb:   |:de::de::de::de:|
 |-------------------|----------------|
@@ -106,75 +106,43 @@ Seraphinus619@gmail.com
 
 ![](https://user-images.githubusercontent.com/67480273/122171691-4b561300-ce80-11eb-935d-c858aea38a97.png)
 
-***
+** :two: Step 2 / Schritt 2 :two:
 
-:gb::gb::gb::gb:
-
-In order open your chrome browser and click the add-on icon on the right-hand side corner:
-
-:de::de::de::de:
-
-Im Anschluss Chrome Browser öffnen und oben rechts in das AddOn-Widget klicken.
+|:gb::gb::gb::gb:|:de::de::de::de:|
+|----------------|----------------|
+|In order open your chrome browser and click the add-on icon on the right-hand side corner:|Im Anschluss Chrome Browser öffnen und oben rechts in das AddOn-Widget klicken.|
 
 ![](https://user-images.githubusercontent.com/67480273/122172347-f5ce3600-ce80-11eb-8d0b-7ac68c121548.png)
 
-***
+** :three: Step 3 / Schritt 3 :three:
 
-:gb::gb::gb::gb:
-
-Activate the developer mode:
-
-:de::de::de::de:
-
-In den Erweiterungen nun den Developer-Modus aktivieren:
+|:gb::gb::gb::gb:|:de::de::de::de:|
+|----------------|----------------|
+|Activate the developer mode|In den Erweiterungen nun den Developer-Modus aktivieren:|
 
 ![](https://user-images.githubusercontent.com/67480273/122172463-0da5ba00-ce81-11eb-90c9-986307c2f61c.png)
 
-***
+** :four: Step 4 / Schritt 4 :four:
 
-:gb::gb::gb::gb:
 
-Click the "load unpacked extension"-Button:
-
-:de::de::de::de:
-
-Nun auf den Button "Entpackte Erweiterung laden":
+|:gb::gb::gb::gb:|:de::de::de::de:|
+|----------------|----------------|
+|Click the "load unpacked extension"-Button:|Nun auf den Button "Entpackte Erweiterung laden":|
 
 ![](https://user-images.githubusercontent.com/67480273/122172582-2f9f3c80-ce81-11eb-8bd8-4ddc3177144c.png)
 
-***
+** :five: Step 5 / Schritt 5 :five:
 
-:gb::gb::gb::gb:
-
-choose the extracted directory:
-
-:de::de::de::de:
-
-Hier wählt ihr den entpackten Ordner "LinkSafer-ChromeAddOn-master". 
+|:gb::gb::gb::gb:|:de::de::de::de:|
+|----------------|----------------|
+|choose the extracted directory:|Hier wählt ihr den entpackten Ordner "LinkSafer-ChromeAddOn-master". |
 
 ![](https://user-images.githubusercontent.com/67480273/122173010-99b7e180-ce81-11eb-92a2-6aa631aa6c41.png)
 
-***
+** :checkered_flag Finish / Fertig :checkered_flag:
 
-:gb::gb::gb::gb:
-
-:+1: :ok_hand: **Well done your´e ready to use!** :ok_hand: :+1:
-
-:pray: **Thank you for using my software!** :pray:
-
-
-:question: **If you face any issues please feel always free to ![contact](seraphinus619@gmail.com) me!** :question:
-
-:de::de::de::de:
-
-:+1: :ok_hand: **Okay, du kannst das Add-On jetzt benutzen!** :ok_hand: :+1:
-
-:pray: **Danke das du meine Software nutzt!** :pray:
-
-
-:question: **Bitte ![kontaktiere](seraphinus619@gmail.com)  mich jederzeit, solltest du irgendwelche Probleme haben!** :question:
-
-
-
-
-
+|:gb::gb::gb::gb:|:de::de::de::de:|
+|----------------|----------------|
+|:+1: :ok_hand: **Well done your´e ready to use!** :ok_hand: :+1:|:+1: :ok_hand: **Okay, du kannst das Add-On jetzt benutzen!** :ok_hand: :+1:|
+|:pray: **Thank you for using my software!** :pray:|:pray: **Danke das du meine Software nutzt!** :pray:|
+|:question: **If you face any issues please feel always free to ![contact](seraphinus619@gmail.com) me!** :question:|:question: **Bitte ![kontaktiere](seraphinus619@gmail.com)  mich jederzeit, solltest du irgendwelche Probleme haben!** :question:|
