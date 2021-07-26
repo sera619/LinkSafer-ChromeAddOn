@@ -67,22 +67,23 @@ Einfaches Add on für den Chrome Browser um:
 |- setup a YT converter       |:x:               |
 
 :de::de::de::de:
-
-- interaktion mit Browser               :heavy_check_mark:
-- füge Speicher-Tab Button ein          :heavy_check_mark:
-- Offline Template initieren            :heavy_check_mark:
-- Kontakt-Button einfügen               :heavy_check_mark:
-- Hilfe-Button einfügen                 :x:
-- einstellen der Hilfe-Seite            :x:
-- füge Optionen-Button ein              :heavy_check_mark:
-- konfigurieren der Optionen            :x:
-- Anzeige Fehler behoben                :heavy_check_mark:
-- Mehrsprachig                          :x:
-- im Google-Store veröffentlicht        :x:
-- speicher Liste als Favoriten          :x:
-- Liste als Text-Datei exportieren      :heavy_check_mark:
-- Snake-Spiel eingefügt                 :heavy_check_mark:
-- YT-Converter implementiert            :x:
+|Funktion:                               | Verfügbar:       |
+|----------------------------------------|------------------|
+|- interaktion mit Browser               |:heavy_check_mark:|
+|- füge Speicher-Tab Button ein          |:heavy_check_mark:|
+|- Offline Template initieren            |:heavy_check_mark:|
+|- Kontakt-Button einfügen               |:heavy_check_mark:|
+|- Hilfe-Button einfügen                 |:x:|
+|- einstellen der Hilfe-Seite            |:x:|
+|- füge Optionen-Button ein              |:heavy_check_mark:|
+|- konfigurieren der Optionen            |:x:|
+|- Anzeige Fehler behoben                |:heavy_check_mark:|
+|- Mehrsprachig                          |:x:|
+|- im Google-Store veröffentlicht        |:x:|
+|- speicher Liste als Favoriten          |:x:|
+|- Liste als Text-Datei exportieren      |:heavy_check_mark:|
+|- Snake-Spiel eingefügt                 |:heavy_check_mark:|
+|- YT-Converter implementiert            |:x:|
 
 ***
 **Kontakt:**
