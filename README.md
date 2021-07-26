@@ -145,7 +145,7 @@ Seraphinus619@gmail.com
 ![](https://user-images.githubusercontent.com/67480273/122173010-99b7e180-ce81-11eb-92a2-6aa631aa6c41.png)
 
 ***
-### :checkered_flag Finish / Fertig :checkered_flag:
+### :checkered_flag: Finish / Fertig :checkered_flag:
 
 |:gb::gb::gb::gb:|:de::de::de::de:|
 |----------------|----------------|
