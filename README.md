@@ -1,5 +1,5 @@
 # <p style="text-align: center;">LinkSafer</p>
-
+## A Chrome - Browser Add-On
 ***
 ## :star: Preview :star:
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn/blob/main/src/img/LinkSafer_2.png)
