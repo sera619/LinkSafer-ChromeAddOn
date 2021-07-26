@@ -1,7 +1,9 @@
 # <p style="text-align: center;">LinkSafer</p>
 
+***
 ![](https://github.com/sera619/LinkSafer-ChromeAddOn/blob/main/src/img/LinkSafer_2.png)
-
+***
+![](https://github.com/sera619/LinkSafer-ChromeAddOn/blob/main/src/img/Screenshot.png)
 :gb::gb::gb::gb:
 
 Simple Chrome Browser-AddOn to: 
