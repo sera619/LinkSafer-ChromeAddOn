@@ -8,36 +8,29 @@
         @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
     </style>
     <title>LinkSafer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
 </head>
 
-<h1>LinkSafer</h1>
-<br>
-<input class="textbox" id="input-el" font-weight="normal" type="text" placeholder="Enter ur message..." />
-<br>
-<div class="button-container">
-    <div class="center">
-        <button class="glow-on-hover" type="button" id="button-el">SAVE INPUT</button>
-        <button class="glow-on-hover" type="button" id="button3-el">SAVE TAB</button>
-        <button class="glow-on-hover" type="button" id="button2-el">CLEAR LIST</button>
-        <button class="glow-on-hover" type="button" id="downloadBtn">DOWNLOAD</button>
-        <button class="glow-on-honver" type="button" id="snake-button">🐍</button>
-        <button class="glow-on-hover" type="button" id="opt-btn"><i class="fa fa-cog"></i></button>
-    </div>
-    <div class="center">
-        <button class="glow-on-hover" type="button" id="help-button" style="font-weight: bold;">Help?</button>
-    </div>
-</div>
-<div class="list-group">
-    <ul id="ul-el">
+<body>
+    <h1>LinkSafer</h1>
+    <section id="help-text">        
+        <h2>Help:</h2>
+        <p>Below you can find a simple legend with a small info about the function.</p>
+        <img src="../../src/img/help.png"/>
+    <ul style="font-weight: bold;">
+        <li> 1 = Save the value from the Inputfield from Add on</li>
+        <li> 2 = Save the currently active tab</li>
+        <li> 3 = Delete the list </li>
+        <li> 4 = Download your created list as .txt file</li>
+        <li> 5 = Play the Snake Game !</li>
+        <li> 6 = Options (work in progress)</li>
+        <li> 7 = Contact-buttons </li>
     </ul>
-</div>
-<script src="script.js"></script>
+</section>
 </body>
-
 <footer>
     <br>
     <br>
@@ -59,5 +52,3 @@
     </div>
     <p>LinkSafer 2.2.0 © 2021 by S3R43o3</p>
 </footer>
-
-</html>

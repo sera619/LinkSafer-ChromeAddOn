@@ -185,3 +185,9 @@ snakeButton.addEventListener("click", function () {
     // sende background-nachricht zum empfänger > 
     chrome.runtime.sendMessage({message: 'buttonClicked'})
 });
+
+// --- Help Button --- 
+const helpButton = document.getElementById("help-button")
+helpButton.addEventListener("click", function() {
+    chrome.runtime.sendMessage({message: 'helpClicked'})
+});
