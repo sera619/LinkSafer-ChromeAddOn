@@ -48,23 +48,23 @@ Einfaches Add on für den Chrome Browser um:
 
 :gb::gb::gb::gb:
 
-|Feature:                     | Implemented:     |
+|Feature:                     |Implemented:      |
 |-----------------------------|------------------|
 |- interaction w/ website     |:heavy_check_mark:|
 |- add Tab save button        |:heavy_check_mark:|
 |- Offline Template initieren.|:heavy_check_mark:|
 |- Kontakt Button             |:heavy_check_mark:|
-|- Help/instruction button    |:x:|
-|- setup help page            |:x:|
+|- Help/instruction button    |:x:               |
+|- setup help page            |:x:               |
 |- setup options Button       |:heavy_check_mark:|
-|- config Options             |:x:|
+|- config Options             |:x:               |
 |- styling fixes.             |:heavy_check_mark:|
-|- multi lang support         |:x:|
-|- puplish on google webstore |:x:|
-|- add save list to fav       |:x:|
+|- multi lang support         |:x:               |
+|- puplish on google webstore |:x:               |
+|- add save list to fav       |:x:               |
 |- export list to .txt        |:heavy_check_mark:|
 |- implement Snake Game       |:heavy_check_mark:|
-|- setup a YT converter       |:x:|
+|- setup a YT converter       |:x:               |
 
 :de::de::de::de:
 
