@@ -93,7 +93,7 @@ Seraphinus619@gmail.com
 
 |:gb::gb::gb::gb:                      |:de::de::de::de:                      |
 |--------------------------------------|--------------------------------------|
-|:warning: This add-on is currently in beta phase. :warning: | :warning: Das Add-On befindet sichzurzeit in der Beta-Phase. :warning:|
+|:warning: This add-on is currently in beta phase. :warning: | :warning: Das Add-On befindet sich zurzeit in der Beta-Phase. :warning:|
 |:arrow_down: To use and test them follow the tutorial right below: :arrow_down: | :arrow_down: Um das Add-On testen können befolge einfach die zu bebilderte Anleitung. :arrow_down: |
 
 ***
