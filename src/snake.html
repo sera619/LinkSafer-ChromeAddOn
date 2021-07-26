@@ -1,117 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LinkSafer</title>
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
-        #snake-background {
-          height: 300;
-          width: 300;
-          justify-content: space-evenly;
-          align-items: center;
-          margin: 0;
-          background-color: black;
-        }
-    
-        #game-board {
-          background-color: #CCC;
-          width: 100vmin;
-          height: 100vmin;
-          display: grids;
-          justify-self: center;
-          grid-template-rows: repeat(21, 1fr);
-          grid-template-columns: repeat(21, 1fr);
-        }
-    
-        .snake {
-          background-color: hsl(200, 100%, 50%);
-          border: .25vmin solid black;
-        }
-    
-        .food {
-          background-color: hsl(50, 100%, 50%);
-          border: .25vmin solid black;
-        }
-        body {
-        min-height: 100%;
-        align-content: center;
-        align-items: center;
-        padding-bottom: 3rem;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        width: 100%;
-        background: linear-gradient(
-            170deg,
-            rgba(49, 57, 73, 0.8) 20%,
-            rgba(49, 57, 73, 0.5) 20%,
-            rgba(49, 57, 73, 0.5) 35%,
-            rgba(41, 48, 61, 0.6) 35%,
-            rgba(41, 48, 61, 0.8) 45%,
-            rgba(31, 36, 46, 0.5) 45%,
-            rgba(31, 36, 46, 0.8) 75%,
-            rgba(49, 57, 73, 0.5) 75%
-          ),
-          linear-gradient(
-              45deg,
-              rgba(20, 24, 31, 0.8) 0%,
-              rgba(41, 48, 61, 0.8) 50%,
-              rgba(82, 95, 122, 0.8) 50%,
-              rgba(133, 146, 173, 0.8) 100%
-      )
-      #313949;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-      </style>
-      <script src="game.js" defer type="module"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake</title>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background-color: black;
+    }
 
-  <body>
-    <h1>LinkSafer</h1>
-    <h2 id="h2">Snake Remake</h2>
-    <div id="game-board"></div>
-  </body>
-  <footer>
-    <div class="button-container">
-      <button scale="0.5" class="box" id="start-button" onclick="startGame()">START</button>
-      <button scale="0.5" class="box" id="end-button" onclick="endGame()">ENDE</button>
-      <button scale="0.5" class="box" id="back-button" onclick="goBack()">BACK</button>
-  </div>
-    <br />
-    <br />
-    <div class="wrapper">
-      <div class="icon facebook">
-        <div class="tooltip">Facebook</div>
-        <span
-          ><a href="https://www.facebook.com/nick.sera.9028" target="_blank"
-            ><i class="fa fa-facebook-f"></i></a
-        ></span>
-      </div>
-      <div class="icon github">
-        <div class="tooltip">Github</div>
-        <span
-          ><a href="https://www.github.com/sera619" target="_blank"
-            ><i class="fa fa-github"></i></a
-        ></span>
-      </div>
-      <div class="icon youtube">
-        <div class="tooltip">Youtube</div>
-        <span
-          ><a
-            href="https://www.youtube.com/channel/UCJLXwZV5Kk4XRF6TSY_iPgQ"
-            target="_blank"
-            ><i class="fa fa-youtube"></i></a
-        ></span>
-      </div>
-    </div>
-    <p>LinkSafer 2.0.0 © 2021 by S3R43o3</p>
-  </footer>
+    #game-board {
+      background-color: #CCC;
+      width: 100vmin;
+      height: 100vmin;
+      display: grid;
+      grid-template-rows: repeat(21, 1fr);
+      grid-template-columns: repeat(21, 1fr);
+    }
+
+    .snake {
+      background-color: hsl(200, 100%, 50%);
+      border: .25vmin solid black;
+    }
+
+    .food {
+      background-color: hsl(50, 100%, 50%);
+      border: .25vmin solid black;
+    }
+  </style>
+  <script src="game.js" defer type="module"></script>
+</head>
+<body>
+  <div id="game-board"></div>
+</body>
 </html>
