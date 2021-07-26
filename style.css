@@ -24,7 +24,7 @@ h1 {
     0 -18px 40px #f00;
   color: #ffffff;
   font-family: "Mr Dafoe", cursive;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .textbox {
@@ -106,7 +106,9 @@ button:active {
 ul {
   align-self: center;
   align-items: flex;
+  list-style: disc;
 }
+
 li {
   overflow: hidden;
   overflow-wrap: break-word;
