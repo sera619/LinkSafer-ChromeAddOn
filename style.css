@@ -14,6 +14,8 @@ html {
   background-size: cover;
   margin: 0;
   padding: 0;
+  min-width: 400;
+  max-width: 300;
 }
 body {
   font-family: "Poppins", sans-serif;

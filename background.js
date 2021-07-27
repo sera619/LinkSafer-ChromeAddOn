@@ -11,29 +11,18 @@ chrome.runtime.onMessage.addListener(function(request, message, sender, senderRe
             url: "./src/help/help.html"
         },null);
     }
+    if (request.message === 'ytClicked'){
+        chrome.tabs.create({
+            url: chrome.extension.getURL('./src/downloader/popup.html'),
+            active: false
+        }, function(tab){
+            // nach dem erstellen des tabs > öffne ein fenster und injeziere den tab 
+            chrome.windows.create({
+                tabId: tab.id,
+                type: 'popup',
+                focused: true
+            });
+        });
+    }        
 });
 // ---- YOUTUBE CONVERTER ----
-
-chrome.runtime.onInstalled.addListener(function() {
-    chrome.declarativeContent.onPageChanged.removeRules(undefined, function(){
-        chrome.declarativeContent.onPageChanged.addRules([{
-            conditions: [
-                new chrome.declarativeContent.PageStateMatcher ({
-                    pageUrl: {hostContains: 'youtube'}
-                })
-            ],
-            actions: [new chrome.declarativeContent.ShowPageAction() ]
-        }]);
-    });
-});
-
-chrome.runtime.onMessage.addListener(function(message) {
-    var url = 'http://localhost:4000/download?';
-    var queryString = Object.keys(message).map(key => key + '=' + message[key]).join('&');
-    url += queryString;
-    console.log(url);
-    chrome.downloads.download({url:url,
-        filename: "YoutubeDownloader/" + message.filename + '.' + message.format}, function(downID){
-            chrome.downloads.show(downID);
-        });
-});

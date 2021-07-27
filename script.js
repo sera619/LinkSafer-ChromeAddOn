@@ -187,49 +187,13 @@ snakeButton.addEventListener("click", function () {
 });
 
 // ---- HELP BUTTON ---- 
-const helpButton = document.getElementById("help-button")
+const helpButton = document.getElementById("help-button");
 helpButton.addEventListener("click", function() {
     chrome.runtime.sendMessage({message: 'helpClicked'})
 });
 
 // ------ YT - Converter ----- 
-var express = require('express');
-var app = express();
-var ytdl = require('ytdl-core');
-
-app.listen('4000', function(){
-	console.log("listening on 4000");
+const ytButton = document.getElementById("youtube-button");
+ytButton.addEventListener("click", function() {
+    chrome.runtime.sendMessage({message: 'ytClicked'})
 });
-
-app.get('/download', function(req, res) {
-	var link = req.query.url;
-	var format = req.query.format;
-	var quality = req.query.quality;
-
-	video = ytdl(link,{
-		format:format,
-		quality:quality,
-	});
-	video.pipe(res);
-});
-
-window.onload = function() {
-	var quality = document.getElementById('quality');
-	var filename = document.getElementById('filename');
-	var format = document.getElementById('format');
-	var dButton = document.getElementById('download').addEventListener('click');
-	
-	dButton.onclick = function(){
-		console.log("button  clicked");
-		chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
-	    	var url = tabs[0].url;
-	    	var message  = {
-	    		'url' : url,
-	    		'quality': quality.value,
-	    		'filename': filename.value,
-	    		'format': format.value
-	    	};
-	    	chrome.runtime.sendMessage(message);
-		});
-	};
-}
