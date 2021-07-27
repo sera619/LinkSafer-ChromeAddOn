@@ -30,7 +30,6 @@
     "notifications",
     "windows",
     "scripting",
-    "declarativeContent",
-    "bookmarks"
+    "declarativeContent"
   ]
 }
