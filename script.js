@@ -197,7 +197,7 @@ window.onload = function() {
 	var quality = document.getElementById('quality');
 	var filename = document.getElementById('filename');
 	var format = document.getElementById('format');
-	var dButton = document.getElementById('download');
+	var dButton = document.getElementById('download').addEventListener('click');
 	
 	dButton.onclick = function(){
 		console.log("button  clicked");
