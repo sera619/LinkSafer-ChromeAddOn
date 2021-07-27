@@ -29,6 +29,7 @@
     "notifications",
     "windows",
     "scripting",
-    "declarativeContent"
+    "declarativeContent",
+    "storage"
   ]
 }

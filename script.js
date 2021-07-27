@@ -177,7 +177,6 @@ optionButton.addEventListener("click", function () {
     chrome.runtime.openOptionsPage();
 });
 
-// ---- SNAKE GAME FUNKTIONEN UND VARIABLEN --- 
 const snakeButton = document.getElementById("snake-button");
 
 
