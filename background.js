@@ -12,17 +12,11 @@ chrome.runtime.onMessage.addListener(function(request, message, sender, senderRe
         },null);
     }
     if (request.message === 'ytClicked'){
-        chrome.tabs.create({
-            url: chrome.extension.getURL('./src/downloader/popup.html'),
-            active: false
-        }, function(tab){
-            // nach dem erstellen des tabs > öffne ein fenster und injeziere den tab 
-            chrome.windows.create({
-                tabId: tab.id,
-                type: 'popup',
-                focused: true
-            });
-        });
-    }        
+        chrome.windows.create({
+            url:('./src/downloader/popup.html'),
+            active: true,
+            type: 'popup'
+        },null);
+    }
 });
 // ---- YOUTUBE CONVERTER ----

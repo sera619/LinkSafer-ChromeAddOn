@@ -188,12 +188,14 @@ snakeButton.addEventListener("click", function () {
 
 // ---- HELP BUTTON ---- 
 const helpButton = document.getElementById("help-button");
+
 helpButton.addEventListener("click", function() {
     chrome.runtime.sendMessage({message: 'helpClicked'})
 });
 
 // ------ YT - Converter ----- 
 const ytButton = document.getElementById("youtube-button");
+
 ytButton.addEventListener("click", function() {
     chrome.runtime.sendMessage({message: 'ytClicked'})
 });
