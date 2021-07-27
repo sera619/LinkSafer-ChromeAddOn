@@ -18,7 +18,8 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_icon": "./src/img/linksafer_icon.png"
+    "default_icon": "./src/img/linksafer_icon.png",
+    "default_title": "LinkSafer"
   },
   "offline_enabled": true,
   "permissions": [
