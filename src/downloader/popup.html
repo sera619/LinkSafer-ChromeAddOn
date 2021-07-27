@@ -2,14 +2,17 @@
 <html>
     <head>
         <title>LinkSafer - YT-Converter</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+        </style>
         <script src="main.js" defer type="module"></script>
         <link rel="stylesheet" type="text/css" href="../../style.css">
-        <meta charset="uft-8">
+        <meta charset="UTF-8">
     </head>
 
     <body>
         <div class="downloader">
-            <h1>LinkSafer - YT-Converter</h1>
+            <h1>LinkSafer<br>Video<br>Converter<br></h1>
             <label for="quality">Quality</label>
             <select id="quality">
                 <option value="highest">highest</option>
@@ -19,8 +22,12 @@
                 <option value="highestvideo">highestvideo</option>
                 <option value="lowestvideo">lowestvideo</option>
             </select>
+            <br>
+            <br>
             <label for="filename">SaveAs</label>
             <input id="filename" placeholder="<filename>">
+            <br>
+            <br>
             <label for="format">Format</label>
             <select id="format">
                 <option value="mp4">mp4</option>
@@ -30,7 +37,12 @@
                 <option value="mp3">mp3</option>
                 <option value="mpg">mpg</option>
             </select>
+            <br>
+            <br>
+            <div class="button-container">
             <button class="glow-on-hover" id="download">YT Download</button>
+            </div>
+
         </div>
     </body>
     <footer>
