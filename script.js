@@ -193,6 +193,26 @@ helpButton.addEventListener("click", function() {
 });
 
 // ------ YT - Converter ----- 
+var express = require('express');
+var app = express();
+var ytdl = require('ytdl-core');
+
+app.listen('4000', function(){
+	console.log("listening on 4000");
+});
+
+app.get('/download', function(req, res) {
+	var link = req.query.url;
+	var format = req.query.format;
+	var quality = req.query.quality;
+
+	video = ytdl(link,{
+		format:format,
+		quality:quality,
+	});
+	video.pipe(res);
+});
+
 window.onload = function() {
 	var quality = document.getElementById('quality');
 	var filename = document.getElementById('filename');
