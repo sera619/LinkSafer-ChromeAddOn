@@ -12,10 +12,9 @@ chrome.runtime.onMessage.addListener(function(request, message, sender, senderRe
         },null);
     }
     if (request.message === 'ytClicked'){
-        chrome.windows.create({
+        chrome.tabs.create({
             url:('./src/downloader/popup.html'),
             active: true,
-            type: 'popup'
         },null);
     }
 });
