@@ -182,12 +182,34 @@ const snakeButton = document.getElementById("snake-button");
 
 
 snakeButton.addEventListener("click", function () {
-    // sende background-nachricht zum empfänger > 
+    // sende background-nachricht zum empfänger > background.js
     chrome.runtime.sendMessage({message: 'buttonClicked'})
 });
 
-// --- Help Button --- 
+// ---- HELP BUTTON ---- 
 const helpButton = document.getElementById("help-button")
 helpButton.addEventListener("click", function() {
     chrome.runtime.sendMessage({message: 'helpClicked'})
 });
+
+// ------ YT - Converter ----- 
+window.onload = function() {
+	var quality = document.getElementById('quality');
+	var filename = document.getElementById('filename');
+	var format = document.getElementById('format');
+	var dButton = document.getElementById('download');
+	
+	dButton.onclick = function(){
+		console.log("button  clicked");
+		chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
+	    	var url = tabs[0].url;
+	    	var message  = {
+	    		'url' : url,
+	    		'quality': quality.value,
+	    		'filename': filename.value,
+	    		'format': format.value
+	    	};
+	    	chrome.runtime.sendMessage(message);
+		});
+	};
+}
