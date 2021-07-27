@@ -28,6 +28,7 @@
     "nativeMessaging",
     "notifications",
     "windows",
-    "scripting"
+    "scripting",
+    "declarativeContent"
   ]
 }

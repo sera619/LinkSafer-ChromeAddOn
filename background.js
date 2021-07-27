@@ -9,7 +9,10 @@ chrome.runtime.onMessage.addListener(function(request, message, sender, senderRe
         chrome.tabs.create({
             active: true,
             url: "./src/help/help.html"
-        },null);    
+        },null);
+    if (request.message === 'ytClicked'){
+        ytCoverter();
+    }
     }
 });
 // ---- SNAKE GAME ----
