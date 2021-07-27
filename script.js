@@ -177,17 +177,24 @@ optionButton.addEventListener("click", function () {
     chrome.runtime.openOptionsPage();
 });
 
-// ---- SNAKE GAME FUNKTIONEN UND VARIABLEN --- 
 const snakeButton = document.getElementById("snake-button");
 
 
 snakeButton.addEventListener("click", function () {
-    // sende background-nachricht zum empfänger > 
+    // sende background-nachricht zum empfänger > background.js
     chrome.runtime.sendMessage({message: 'buttonClicked'})
 });
 
-// --- Help Button --- 
-const helpButton = document.getElementById("help-button")
+// ---- HELP BUTTON ---- 
+const helpButton = document.getElementById("help-button");
+
 helpButton.addEventListener("click", function() {
     chrome.runtime.sendMessage({message: 'helpClicked'})
+});
+
+// ------ YT - Converter ----- 
+const ytButton = document.getElementById("youtube-button");
+
+ytButton.addEventListener("click", function() {
+    chrome.runtime.sendMessage({message: 'ytClicked'})
 });

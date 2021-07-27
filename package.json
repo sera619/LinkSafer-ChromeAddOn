@@ -1,13 +1,13 @@
 {
   "dependencies": {
+    "express": "^4.17.1",
     "jquery": "^3.6.0",
-    "three.js": "^0.77.1"
+    "ytdl-core": "^4.9.0"
   },
   "name": "linksafer-chromeaddon-1.9.6-beta",
   "description": ":gb::gb::gb::gb:",
   "version": "2.0.0",
   "main": "script.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

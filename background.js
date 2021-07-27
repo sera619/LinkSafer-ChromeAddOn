@@ -9,9 +9,14 @@ chrome.runtime.onMessage.addListener(function(request, message, sender, senderRe
         chrome.tabs.create({
             active: true,
             url: "./src/help/help.html"
-        },null);    
+        },null);
+    }
+    if (request.message === 'ytClicked'){
+        chrome.windows.create({
+            url:('./src/downloader/popup.html'),
+            active: true,
+            type: 'popup'
+        },null);
     }
 });
-// ---- SNAKE GAME ----
-
-
+// ---- YOUTUBE CONVERTER ----
