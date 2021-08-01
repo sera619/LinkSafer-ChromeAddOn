@@ -54,8 +54,8 @@ Einfaches Add on für den Chrome Browser um:
 |- add Tab save button        |:heavy_check_mark:|
 |- Offline Template initieren.|:heavy_check_mark:|
 |- Kontakt Button             |:heavy_check_mark:|
-|- Help/instruction button    |:x:               |
-|- setup help page            |:x:               |
+|- Help/instruction button    |:heavy_check_mark:|
+|- setup help page            |:heavy_check_mark:|
 |- setup options Button       |:heavy_check_mark:|
 |- config Options             |:x:               |
 |- styling fixes.             |:heavy_check_mark:|
@@ -73,8 +73,8 @@ Einfaches Add on für den Chrome Browser um:
 |- füge Speicher-Tab Button ein          |:heavy_check_mark:|
 |- Offline Template initieren            |:heavy_check_mark:|
 |- Kontakt-Button einfügen               |:heavy_check_mark:|
-|- Hilfe-Button einfügen                 |:x:|
-|- einstellen der Hilfe-Seite            |:x:|
+|- Hilfe-Button einfügen                 |:heavy_check_mark:|
+|- einstellen der Hilfe-Seite            |:heavy_check_mark:|
 |- füge Optionen-Button ein              |:heavy_check_mark:|
 |- konfigurieren der Optionen            |:x:|
 |- Anzeige Fehler behoben                |:heavy_check_mark:|
